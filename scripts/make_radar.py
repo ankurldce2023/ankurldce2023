@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the animated attack-surface radar banners for the GitHub profile README.
 
-GitHub renders README images as <img>, so no JavaScript runs — the animation is pure CSS
+GitHub renders README images as <img>, so no JavaScript runs - the animation is pure CSS
 inside the SVG. Run:  python3 scripts/make_radar.py   →  assets/radar-dark.svg, assets/radar-light.svg
 """
 import math
@@ -104,7 +104,7 @@ def build(theme: str) -> str:
 
 <rect x="450" y="30" width="390" height="340" rx="8" fill="{c['panel']}" stroke="{c['line']}"/>
 <circle cx="470" cy="50" r="5" fill="{c['exposed']}"/><circle cx="487" cy="50" r="5" fill="{c['forgotten']}"/><circle cx="504" cy="50" r="5" fill="{c['known']}"/>
-<text x="524" y="54" font-size="11" fill="{c['dim']}">recon — passive</text>
+<text x="524" y="54" font-size="11" fill="{c['dim']}">recon - passive</text>
 <text x="470" y="74" font-size="12.5" fill="{c['dim']}">$ <tspan fill="{c['head']}">recon.sh example.com</tspan><tspan class="cur" fill="{c['known']}">_</tspan></text>
 {"".join(logs)}
 <g class="sum"><line x1="470" y1="{92 + len(NODES) * 22 - 8}" x2="820" y2="{92 + len(NODES) * 22 - 8}" stroke="{c['line']}" stroke-dasharray="3 3"/>
