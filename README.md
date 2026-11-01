@@ -10,9 +10,9 @@
 
 <p align="center">
   <b>Ankur Khunt</b> · Developer turned Security Engineer · Gujarat, India<br>
+  <a href="https://shift-left-kit.pages.dev"><b>🌐 shift-left-kit.pages.dev</b></a> ·
   <a href="https://www.linkedin.com/in/ankur-khunt-122b971b0">LinkedIn</a> ·
   <a href="mailto:ankurldce2023@gmail.com">Email</a>
-  <!-- TODO: add the portfolio link here once the site is live -->
 </p>
 
 ---
@@ -40,8 +40,8 @@ bridge   Turning findings into fixes — and shortcuts developers can run themse
 
 | project | what | status |
 |---|---|---|
-| **Portfolio** | Attack surface, OSINT and OWASP Top 10 explained for developers — with a self-recon checklist and copy-paste commands | 🚧 launching soon |
-| **recon.sh** | Maps your own domain’s attack surface (subdomains, DNS & email, archives, exposed files, headers) into a local HTML report | 🚧 open-sourcing soon |
+| **[shift-left-kit.pages.dev](https://shift-left-kit.pages.dev)** | Attack surface, OSINT and OWASP Top 10 explained for developers — with a [self-recon checklist](https://shift-left-kit.pages.dev/osint/self-recon/) and an [attack surface lookup](https://shift-left-kit.pages.dev/osint/lookup/) | ✅ live |
+| **[recon.sh](https://shift-left-kit.pages.dev/osint/automate/)** | Maps your own domain’s attack surface (subdomains, DNS & email, archives, exposed files, headers) into a local HTML report | ✅ [download](https://shift-left-kit.pages.dev/osint/automate/) |
 
 ### `$ cat certs.txt`
 
